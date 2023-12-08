@@ -1,0 +1,134 @@
+ ✘  vasani  vim Q1.sh
+               
+        
+ [~/Desktop/COSSDM]
+ ✘  vasani  zsh ./Q1.sh
+Enter the number of rows: 
+5
+5 4 3 2 1 
+ 5 4 3 2 
+  5 4 3 
+   5 4 
+    5 
+./Q1.sh:21: permission denied: /home/vasani
+               
+ [~/Desktop/COSSDM]
+ ✘  vasani  
+
+               
+ [~/Desktop/COSSDM]
+ ✘  vasani  who          
+vasani   tty2         2023-12-08 13:46 (tty2)
+               
+ [~/Desktop/COSSDM]
+ vasani  tty              
+/dev/pts/0
+               
+ [~/Desktop/COSSDM]
+ vasani  echo "2+5" | bc                                    
+7
+               
+ [~/Desktop/COSSDM]
+ vasani  echo "2.7 + 5.6" | bc
+8.3
+
+               
+ [~/Desktop/COSSDM]
+ ✘  vasani   main  vim palindrome.sh
+               
+ [~/Desktop/COSSDM]
+ vasani   main  zsh ./palindrome.sh 
+Enter a string:
+meet
+Not a Palindrome
+               
+ [~/Desktop/COSSDM]
+ vasani   main  zsh ./palindrome.sh
+Enter a string:
+Meet
+Not a Palindrome
+               
+ [~/Desktop/COSSDM]
+ vasani   main  zsh ./palindrome.sh
+Enter a string:
+nitin
+Palindrome
+               
+ [~/Desktop/COSSDM]
+ vasani   main  zsh ./palindrome.sh
+Enter a string:
+Nitin
+Not a Palindrome
+               
+ [~/Desktop/COSSDM]
+ vasani   main  zsh ./palindrome.sh
+Enter a string:
+vasani
+Not a Palindrome
+
+vasani   main  ls -i /home
+
+3423568 vasani
+
+
+vasani  cat > data.txt     
+      "Linux is open source.
+
+     In linux everything is a file.
+
+     Linux Is very poweful.
+
+     Security is the main
+
+     advantage."    
+               
+ [~/Desktop/COSSDM]
+ vasani  vim data.txt  
+               
+               
+ [~/Desktop/COSSDM]
+ vasani   main  grep -o -i 'is' data.txt | wc -l
+
+4
+               
+ [~/Desktop/COSSDM]
+ vasani   main  wc -w data.txt
+
+19 data.txt
+               
+[~/Desktop/COSSDM]
+ vasani  cat > sample.txt
+ Bat
+
+    Goat
+
+    Apple
+
+    Dog
+
+    First
+
+    Eat
+
+    Hide        
+               
+ [~/Desktop/COSSDM]
+ vasani  vim sample.txt 
+
+               
+ [~/Desktop/COSSDM]
+ vasani   main  grep -v 'a' sample.txt | tac
+
+Hide
+
+
+First
+
+Dog
+
+Apple
+
+
+               
+ [~/Desktop/COSSDM]
+ vasani   main  
